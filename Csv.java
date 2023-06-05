@@ -1,4 +1,3 @@
-
 package grafos;
 import java.util.*; 
 import java.io.File;
@@ -7,10 +6,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import grafos.User;
 import grafos.UsersRelation;
-/**
- *
- * @author yoita5
- */
+
 public class Csv {
     FileReader file;
     String filePath;

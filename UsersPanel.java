@@ -1,4 +1,3 @@
-
 package grafos;
 import java.util.*; 
 import java.awt.event.MouseAdapter;
@@ -24,9 +23,7 @@ public class UsersPanel extends JFrame {
     private static Object lock = new Object();
     private static UserRelationsPanel userRelationsWindow;
     private static AddUserRelationPanel AddUserRelationsWindow;
-    
-    
-    //when a Jlist element is right-clicklied (gray background)
+        
     public class SelectedListCellRenderer extends DefaultListCellRenderer {
         @Override
         public Component getListCellRendererComponent(JList list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
